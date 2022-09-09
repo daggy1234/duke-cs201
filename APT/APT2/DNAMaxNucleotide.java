@@ -32,10 +32,10 @@ public class DNAMaxNucleotide {
         return max_cs;
   }
 
-    // public static void main(String[] args) {
-    //     DNAMaxNucleotide dna = new DNAMaxNucleotide();
-    //     String[] strands  = {"g", "gg", "ggg", "gggg"};
-    //     String nuc = "c";
-    //     System.out.println(dna.max(strands, nuc));
-    // }
+    public static void main(String[] args) {
+        DNAMaxNucleotide dna = new DNAMaxNucleotide();
+        String[] strands  = {"g", "gg", "ggg", "gggg"};
+        String nuc = "c";
+        System.out.println(dna.max(strands, nuc));
+    }
 }
