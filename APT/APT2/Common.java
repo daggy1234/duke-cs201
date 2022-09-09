@@ -1,8 +1,5 @@
-// package APT.APT2;
 import java.util.ArrayList;
-import java.util.HashSet;
 import java.util.List;
-import java.util.Set;
 
 public class Common {
 
@@ -11,29 +8,37 @@ public class Common {
     //     System.out.println("made common");
     // }
 
-    public Set<Character> StringtoSet(String a) {
+    public List<Character> StringtoCharList(String a) {
+        List<Character> charList = new ArrayList<Character>();
         char[] charArray = a.toCharArray();
-        Set<Character> unique = new HashSet<Character>();
-        for(char c : charArray) {
-            unique.add(c);
+        for (char c : charArray) {
+            charList.add(c);
         }
-        return unique;
-
+        return charList;
     }
 
     public int count(String a, String b) {
         Common cmn = new Common();
-        Set<Character> set_a = cmn.StringtoSet(a);
-        Set<Character> set_b = cmn.StringtoSet(b);
-        set_a.retainAll(set_b);
-        return set_a.size();
+        List<Character> charList = cmn.StringtoCharList(a);
+        List<Character> charListB = cmn.StringtoCharList(b);
+        List<Character> mutualList = new ArrayList<Character>();
+        for (Character c : charList) {
+            if (charListB.contains(c)) {
+                int ind = charListB.indexOf(c);
+                charListB.remove(ind);
+                mutualList.add(c);
+            }
+        }
+        System.out.println(mutualList);
+        return mutualList.size();
+
 
     }
 
     // public static void main(String[] args) {
     //     Common c = new Common();
     //     String a = "horse";
-    //     String b =  "moose";
+    //     String b =  "mirth";
     //     System.out.println(c.count(a,b));
     // }
 }

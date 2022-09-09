@@ -1,5 +1,3 @@
-package APT.APT2;
-
 public class DNAMaxNucleotide {
 
     DNAMaxNucleotide() {
