@@ -1,5 +1,3 @@
-package APT.APT3;
-
 public class TrueSpace {
     public long calculateSpace(int[] sizes, int clusterSize) {
         long total = 0;
