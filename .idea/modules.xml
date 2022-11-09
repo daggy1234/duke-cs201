@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/APT/APT.iml" filepath="$PROJECT_DIR$/APT/APT.iml" />
+      <module fileurl="file://$PROJECT_DIR$/CS201.iml" filepath="$PROJECT_DIR$/CS201.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Quizes/Quizes.iml" filepath="$PROJECT_DIR$/Quizes/Quizes.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/p1-nbody/p1-nbody.iml" filepath="$PROJECT_DIR$/Projects/p1-nbody/p1-nbody.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/p2-markov/p2-markov.iml" filepath="$PROJECT_DIR$/Projects/p2-markov/p2-markov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/p3-dna/p3-dna.iml" filepath="$PROJECT_DIR$/Projects/p3-dna/p3-dna.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Projects/person-201/person-201.iml" filepath="$PROJECT_DIR$/Projects/person-201/person-201.iml" />
+    </modules>
+  </component>
+</project>
