@@ -1,3 +1,18 @@
 [submodule "person-201"]
     path="Projects/person-201"
     url="https://coursework.cs.duke.edu/aj373/person-201"
+[submodule "p1-nbody"]
+    path="Projects/p1-nbody"
+    url="https://coursework.cs.duke.edu/aj373/p1-nbody"
+[submodule "p2-markov"]
+    path="Projects/p2-markov"
+    url="https://coursework.cs.duke.edu/aj373/p2-markov"
+[submodule "p3-dna"]
+    path="Projects/p3-dna"
+    url="https://coursework.cs.duke.edu/aj373/p3-dna"
+[submodule "p4-autocomplete"]
+    path="Projects/p4-autocomplete"
+    url="https://coursework.cs.duke.edu/aj373/p4-autocomplete"
+[submodule "p5-huffman"]
+    path="Projects/p5-huffman"
+    url="https://coursework.cs.duke.edu/aj373/p5-huffman"
